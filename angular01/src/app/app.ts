@@ -10,6 +10,7 @@ import { RouterOutlet } from '@angular/router';
 export class App {
   title = "how are u";
   name = "tapakorn";
+  arr = [1,2,3]
 
   hello(){
     let x =10
