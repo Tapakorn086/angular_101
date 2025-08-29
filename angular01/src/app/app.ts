@@ -21,4 +21,13 @@ export class App {
     var data = 30
     return x+y
   }
+
+  handleClickEvent() {
+    alert("function is called")
+    this.otherFunction()
+  }
+
+  otherFunction(){
+    console.log("otherFunction is called ")
+  }
 }
